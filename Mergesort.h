@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
 
-static int result[20]={0};
-
 void copy_array(int source[],int dest[],int floor,int ceiling){
 	int i = 0;
 	while(floor <= ceiling){
